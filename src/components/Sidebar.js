@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import '../App.css';
+
 
 export  class Sidebar  extends Component {
     render() {
@@ -46,7 +48,20 @@ export  class Sidebar  extends Component {
                      {/* Sidebar Links */}
 
                 </nav>
+
+                <div id="content">
                 
+                <button type="button" id="sidebarCollapse" className="btn btn-info navbar-btn">
+                <i className="glyphicon glyphicon-align-left"></i>
+                Toggle Sidebar
+                </button>
+
+                </div>
+                
+
+
+
+
                  </div>
         )
     }
